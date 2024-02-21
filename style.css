@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+background-color: black;
+color: aliceblue;
+/* background-image: url('sky.jpeg'); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+/* opacity: 2; */
+/* z-index: 1; */
+background-color: black;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    display: inline;
+    
+}
+.container{
+    margin: 0px;
+}
+.mon{display:inline-block;
+    /* border: 2px solid red; */
+}
+.para{font-weight: bolder;
+    /* border: 2px solid red; */
+
+}
+.container{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: flex;
+}
+.dot{
+    /* border: 2px solid red; */
+ display: flex;
+ justify-content: center;
+ /* align-items: center; */
+ 
+}
+.dot li{ 
+    color: aqua;
+    list-style:disc;
+    margin: 40px;
+    padding: 0px;
+    float:left ;
+    
+}
+.incontent{
+    display: none;
+   }
+   .amcontent{
+    display: none;
+   }
+   .cmcontent{
+    display: none;
+   }
+   .mpcontent{
+    display: none;
+   }
+
+.f{
+color: lightgreen;
+}
+.s{
+color: white; 
+}
+.navbar{
+    display: flex;
+}
+li{ font-weight: bold;
+    list-style:none;
+    /* border: 2px solid red; */
+    margin-left: 70px;
+}
+li:hover{
+    font-weight: bolder;
+    border-bottom: 2px solid lightgreen;
+}
+
+/*   ----------------------------*/
+@media (max-width:455px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: aliceblue;
+    /* background-image: url('sky.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+    /* height: 100vh;
+    width: 100%;
+    opacity: 0.1;  */
+    }
+
+
+
+    .dot li{ 
+        color: aqua;
+        list-style:disc;
+        margin: 20px;
+        padding: 0px;
+        float:left ;
+
+        border-left: 2px solid green;
+    }
+    .dot li:hover{
+        border: 2px solid green;
+        background-color: black;
+        color: white;
+        transition: 2s;
+        border-radius: 20px;
+        list-style: none;
+    }
+    
+    .navbar li{ font-weight: bold;
+        list-style:none;
+        /* border-right: 2px solid red; */
+        /* margin-left: -30px; */
+        color: aqua;
+        /* margin: 5px; */
+        /* width: 100px; */
+        /* margin-left: 30px; */
+        
+
+    }
+    li:hover{
+        font-weight: bolder;
+        border-bottom:none;
+    }
+    li{ font-weight: bold;
+        list-style:none;
+        border-left: 2px solid red;
+        margin-left: 0px;
+        margin: 10px;
+        font-size: larger;
+        text-transform: uppercase;
+
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+    }
+    #main{
+        display: block;
+    }
+
+    .navbar{
+        /* border: 2px solid rgb(175, 247, 8); */
+display: block;
+        /* display: flex; */
+        /* justify-content:space-evenly; */
+        /* align-items: center; */
+        
+        
+        
+
+    }
+    .am{
+        /* width: 100px; */
+/* margin-left: 20px; */
+
+    }
+    .mp{
+        /* width: 150px; */
+/* border: 2px solid rgb(7, 249, 7); */
+/* color:brown; */
+    }
+    .cm{
+        /* width: 110px; */
+
+    }
+   .in{
+    /* width: 100px; */
+    /* margin-left: -60px; */
+    /* position: absolute; */
+    /* border: 2px solid red; */
+
+
+   } 
+   .incontent{
+    display: none;
+    transition: 2s;
+   }
+   .amcontent{
+    display: none;
+    transition: 2s;
+   }
+   .cmcontent{
+    display: none;
+    transition: 2s;
+   }
+   .mpcontent{
+    display: none;
+    transition: 2s;
+   }
+   .in:hover{
+    
+   transition: 1s;
+    border: 2px solid green;
+    width: 90%;
+    height: 50%;
+   }
+   .am:hover{
+    transition: 1s;
+    border: 2px solid green;
+    width: 90%;
+    height: 50%;
+
+   }
+   .mp:hover{
+    transition: 1s;
+    border: 2px solid green;
+    width: 90%;
+    height: 50%;
+
+   }
+   .cm:hover{
+    transition: 1s;
+    border: 2px solid green;
+    width: 90%;
+    height: 50%;
+
+   }
+   
+   .in:hover .incontent{
+    display: block;
+    
+
+   }
+   .am:hover .amcontent{
+    display: block;
+    
+
+   }
+   .cm:hover .cmcontent{
+    display: block;
+    
+
+   }
+   .mp:hover .mpcontent{
+    display: block;
+    
+
+   }
+}
